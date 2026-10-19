@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="320" height="70">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    <linearGradient id="basketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+    <linearGradient id="darkGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F32" />
+      <stop offset="100%" stop-color="#063320" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Group -->
+  <g transform="translate(6, 6)">
+    <!-- Basket Shadow -->
+    <ellipse cx="28" cy="54" rx="22" ry="4" fill="#000000" opacity="0.12" />
+
+    <!-- Basket Handle -->
+    <path d="M 12 32 C 12 14, 44 14, 44 32" fill="none" stroke="url(#basketGrad)" stroke-width="3.5" stroke-linecap="round" />
+
+    <!-- Fresh Leaves sprouting from basket -->
+    <!-- Center Leaf -->
+    <path d="M 28 26 C 24 16, 28 6, 36 2 C 38 12, 34 22, 28 26 Z" fill="url(#leafGrad)" />
+    <path d="M 28 26 Q 32 14 36 2" fill="none" stroke="#FFFFFF" stroke-width="0.9" opacity="0.7" />
+    
+    <!-- Left Leaf -->
+    <path d="M 24 28 C 16 22, 14 12, 20 6 C 24 14, 25 22, 24 28 Z" fill="#4CAF50" />
+    
+    <!-- Right Leaf -->
+    <path d="M 32 28 C 40 24, 44 15, 40 8 C 36 15, 33 23, 32 28 Z" fill="#2E7D32" />
+
+    <!-- Basket Body -->
+    <path d="M 10 32 L 46 32 L 41 51 C 40.5 53, 39 54, 37 54 L 19 54 C 17 54, 15.5 53, 15 51 Z" fill="url(#darkGreenGrad)" stroke="url(#basketGrad)" stroke-width="1.8" />
+
+    <!-- Basket Woven Lines -->
+    <line x1="12" y1="39" x2="44" y2="39" stroke="url(#basketGrad)" stroke-width="1.2" opacity="0.8" />
+    <line x1="15" y1="46" x2="41" y2="46" stroke="url(#basketGrad)" stroke-width="1.2" opacity="0.8" />
+    <line x1="22" y1="32" x2="20" y2="54" stroke="url(#basketGrad)" stroke-width="1.2" opacity="0.6" />
+    <line x1="28" y1="32" x2="28" y2="54" stroke="url(#basketGrad)" stroke-width="1.2" opacity="0.6" />
+    <line x1="34" y1="32" x2="36" y2="54" stroke="url(#basketGrad)" stroke-width="1.2" opacity="0.6" />
+
+    <!-- Small Golden Sparkle / Star -->
+    <path d="M 46 16 L 47.5 20 L 51.5 21.5 L 47.5 23 L 46 27 L 44.5 23 L 40.5 21.5 L 44.5 20 Z" fill="#D4AF37" />
+  </g>
+
+  <!-- Typography Group -->
+  <g transform="translate(68, 14)">
+    <!-- Primary Brand Name -->
+    <text x="0" y="24" font-family="'Inter', 'Noto Sans Sinhala', 'Segoe UI', sans-serif" font-size="22" font-weight="800" fill="#0B4F32" letter-spacing="-0.3">
+      VITHANAGE
+    </text>
+    <text x="142" y="24" font-family="'Inter', 'Noto Sans Sinhala', 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#D4AF37" letter-spacing="-0.3">
+      STORES
+    </text>
+
+    <!-- Sinhala Subtitle & Quality Tag -->
+    <text x="1" y="42" font-family="'Noto Sans Sinhala', 'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#2E7D32" letter-spacing="0.2">
+      විතානගේ ස්ටෝර්ස්
+    </text>
+    <circle cx="95" cy="38.5" r="2" fill="#D4AF37" />
+    <text x="103" y="42" font-family="'Inter', 'Noto Sans Sinhala', sans-serif" font-size="10" font-weight="600" fill="#666666" letter-spacing="0.8">
+      FRESH &amp; QUALITY GROCERY
+    </text>
+  </g>
+</svg>

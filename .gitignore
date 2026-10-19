@@ -1,0 +1,5 @@
+# Logs & Temp files
+*.log
+.system_generated/
+.DS_Store
+Thumbs.db

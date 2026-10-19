@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="ftrBasket" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1C40F" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Group -->
+  <g transform="translate(4, 6)">
+    <path d="M 10 26 C 10 12, 36 12, 36 26" fill="none" stroke="url(#ftrBasket)" stroke-width="3" stroke-linecap="round" />
+    <!-- Leaf -->
+    <path d="M 23 21 C 20 12, 23 5, 30 1 C 32 8, 29 17, 23 21 Z" fill="#4CAF50" />
+    <path d="M 18 22 C 12 17, 11 9, 16 4 C 19 9, 19 16, 18 22 Z" fill="#81C784" />
+    <!-- Basket -->
+    <path d="M 8 26 L 38 26 L 34 42 C 33.5 43.5, 32 44.5, 30.5 44.5 L 15.5 44.5 C 14 44.5, 12.5 43.5, 12 42 Z" fill="#063320" stroke="url(#ftrBasket)" stroke-width="1.8" />
+    <line x1="10" y1="32" x2="36" y2="32" stroke="url(#ftrBasket)" stroke-width="1.2" opacity="0.8" />
+    <line x1="13" y1="38" x2="33" y2="38" stroke="url(#ftrBasket)" stroke-width="1.2" opacity="0.8" />
+  </g>
+
+  <!-- Typography (Light colors for Dark Footer) -->
+  <g transform="translate(56, 14)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="-0.3">
+      VITHANAGE
+    </text>
+    <text x="130" y="20" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#D4AF37" letter-spacing="-0.3">
+      STORES
+    </text>
+    <text x="0" y="35" font-family="'Noto Sans Sinhala', sans-serif" font-size="11" font-weight="500" fill="#A5D6A7" letter-spacing="0.2">
+      විතානගේ ස්ටෝර්ස් • ජනපදහන්දිය, හම්බේගමුව
+    </text>
+  </g>
+</svg>

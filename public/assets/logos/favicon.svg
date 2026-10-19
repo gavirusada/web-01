@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F32" />
+      <stop offset="100%" stop-color="#063320" />
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1C40F" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Background -->
+  <rect width="48" height="48" rx="10" fill="url(#favBg)" />
+  <!-- Basket Handle -->
+  <path d="M 14 24 C 14 13, 34 13, 34 24" fill="none" stroke="url(#favGold)" stroke-width="2.6" stroke-linecap="round" />
+  <!-- Sprouting Leaf -->
+  <path d="M 24 19 C 21 11, 24 5, 30 2 C 32 8, 29 16, 24 19 Z" fill="#4CAF50" />
+  <path d="M 20 20 C 15 16, 15 9, 19 5 C 22 10, 21 16, 20 20 Z" fill="#81C784" />
+  <!-- Basket -->
+  <path d="M 11 24 L 37 24 L 33 38 C 32.5 40, 31 41, 29 41 L 19 41 C 17 41, 15.5 40, 15 38 Z" fill="#0B4F32" stroke="url(#favGold)" stroke-width="1.6" />
+  <line x1="13" y1="30" x2="35" y2="30" stroke="url(#favGold)" stroke-width="1" opacity="0.9" />
+  <line x1="16" y1="35" x2="32" y2="35" stroke="url(#favGold)" stroke-width="1" opacity="0.9" />
+</svg>

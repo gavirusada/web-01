@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 160" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="farmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B5E20" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+  </defs>
+  <rect width="460" height="160" rx="14" fill="url(#farmGrad)" />
+  <circle cx="410" cy="80" r="105" fill="#4CAF50" opacity="0.3" />
+  <circle cx="340" cy="140" r="60" fill="#D4AF37" opacity="0.15" />
+
+  <!-- Promo Details -->
+  <g transform="translate(24, 28)">
+    <rect width="115" height="24" rx="12" fill="#4CAF50" />
+    <text x="57" y="16" font-family="'Noto Sans Sinhala', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">ගොවිපලෙන් සෘජුවම</text>
+
+    <text x="0" y="55" font-family="'Noto Sans Sinhala', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">නැවුම් එළවළු සහ පලතුරු</text>
+    <text x="0" y="78" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#C8E6C9">100% Farm Fresh Local Produce</text>
+    
+    <g transform="translate(0, 92)">
+      <text x="0" y="14" font-family="'Inter', 'Noto Sans Sinhala', sans-serif" font-size="11" font-weight="700" fill="#F1C40F">දිනපතා උදෑසන තොග  ➜</text>
+    </g>
+  </g>
+
+  <!-- Illustration of Fresh Fruits & Vegetables -->
+  <g transform="translate(330, 22)">
+    <circle cx="65" cy="65" r="48" fill="#144618" />
+    <!-- Watermelon slice -->
+    <path d="M 30 75 A 35 35 0 0 0 95 75 Z" fill="#E74C3C" />
+    <path d="M 28 75 A 37 37 0 0 0 97 75 Z" stroke="#2ECC71" stroke-width="4" fill="none" />
+    <!-- Seeds -->
+    <circle cx="50" cy="68" r="1.5" fill="#111111" />
+    <circle cx="62" cy="71" r="1.5" fill="#111111" />
+    <circle cx="75" cy="67" r="1.5" fill="#111111" />
+    <!-- Banana -->
+    <path d="M 35 30 Q 70 25 85 55 Q 70 45 40 40 Z" fill="#F1C40F" />
+    <!-- Apple -->
+    <circle cx="85" cy="85" r="18" fill="#C0392B" />
+    <path d="M 85 67 Q 88 64 86 62" stroke="#795548" stroke-width="2" fill="none" />
+  </g>
+</svg>

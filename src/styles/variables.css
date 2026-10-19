@@ -1,0 +1,61 @@
+/* VITHANAGE STORES - DESIGN TOKENS & SYSTEM VARIABLES */
+:root {
+  /* Brand Color Palette */
+  --color-primary-dark: #0B4F32;
+  --color-primary-dark-hover: #073823;
+  --color-primary-light: #E8F5E9;
+  --color-fresh-green: #4CAF50;
+  --color-fresh-green-dark: #2E7D32;
+  --color-accent-gold: #D4AF37;
+  --color-accent-gold-hover: #BF9B27;
+  --color-accent-gold-light: #FFF9E6;
+  
+  /* Neutral & Background Colors */
+  --color-bg-page: #F7F9F8;
+  --color-bg-card: #FFFFFF;
+  --color-bg-topbar: #083823;
+  --color-bg-footer: #062618;
+  --color-border: #E3EBE6;
+  --color-border-subtle: #F0F4F2;
+
+  /* Typography Colors */
+  --color-text-main: #14241B;
+  --color-text-muted: #56695F;
+  --color-text-light: #8E9F96;
+  --color-text-inverse: #FFFFFF;
+
+  /* Status Colors */
+  --color-badge-instock: #2E7D32;
+  --color-badge-best: #D4AF37;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #20BA5A;
+
+  /* Fonts */
+  --font-sinhala: 'Noto Sans Sinhala', sans-serif;
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(11, 79, 50, 0.04);
+  --shadow-sm: 0 2px 6px rgba(11, 79, 50, 0.06);
+  --shadow-md: 0 4px 16px rgba(11, 79, 50, 0.08);
+  --shadow-lg: 0 10px 28px rgba(11, 79, 50, 0.12);
+  --shadow-float: 0 8px 30px rgba(37, 211, 102, 0.35);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Container & Spacing */
+  --container-max-width: 1260px;
+  --header-height: 72px;
+  --topbar-height: 38px;
+}

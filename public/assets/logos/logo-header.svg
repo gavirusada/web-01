@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 48" width="250" height="48">
+  <defs>
+    <linearGradient id="hdrLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    <linearGradient id="hdrBasket" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Compact Icon (Height ~40) -->
+  <g transform="translate(4, 4)">
+    <path d="M 8 22 C 8 9, 32 9, 32 22" fill="none" stroke="url(#hdrBasket)" stroke-width="2.6" stroke-linecap="round" />
+    <!-- Leaf -->
+    <path d="M 20 18 C 17 11, 20 4, 26 1 C 28 8, 25 15, 20 18 Z" fill="url(#hdrLeaf)" />
+    <path d="M 16 19 C 11 15, 10 7, 14 3 C 17 8, 17 14, 16 19 Z" fill="#4CAF50" />
+    <!-- Basket -->
+    <path d="M 6 22 L 34 22 L 30 36 C 29.5 37.5, 28.5 38, 27 38 L 13 38 C 11.5 38, 10.5 37.5, 10 36 Z" fill="#0B4F32" stroke="url(#hdrBasket)" stroke-width="1.4" />
+    <line x1="8" y1="27" x2="32" y2="27" stroke="url(#hdrBasket)" stroke-width="1" opacity="0.8" />
+    <line x1="10" y1="33" x2="30" y2="33" stroke="url(#hdrBasket)" stroke-width="1" opacity="0.8" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(50, 8)">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="19" font-weight="800" fill="#0B4F32" letter-spacing="-0.3">
+      VITHANAGE
+    </text>
+    <text x="122" y="20" font-family="'Inter', sans-serif" font-size="19" font-weight="700" fill="#D4AF37" letter-spacing="-0.3">
+      STORES
+    </text>
+    <text x="0.5" y="32" font-family="'Noto Sans Sinhala', sans-serif" font-size="9.5" font-weight="600" fill="#2E7D32" letter-spacing="0.2">
+      විතානගේ ස්ටෝර්ස්
+    </text>
+    <circle cx="78" cy="29" r="1.5" fill="#D4AF37" />
+    <text x="84" y="32" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B" letter-spacing="0.5">
+      HAMBEGAMUWA
+    </text>
+  </g>
+</svg>
